@@ -1,0 +1,56 @@
+############################################################
+Profiling started for:  ['largestPrimeFactor.py', '18505779463480206643200']
+Start time:  2012-09-24 03:04:56.384000 
+
+
+All powers of prime factors of  18505779463480206643200  are as follows:
+Largest Prime:  823
+[[2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096], [3, 9, 27, 81, 243, 729], [5, 25], [7, 49, 343, 2401], [13], [61], [281], [563], [823]]
+
+
+End time:  2012-09-24 03:04:56.384000
+Profiling finished for:  ['largestPrimeFactor.py', '18505779463480206643200']
+############################################################
+         702 function calls in 0.001 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.001    0.001 largestPrimeFactor.py:11(<module>)
+      218    0.000    0.000    0.000    0.000 largestPrimeFactor.py:20(nextprime)
+      221    0.000    0.000    0.000    0.000 largestPrimeFactor.py:29(checkDivisibility)
+      221    0.000    0.000    0.000    0.000 largestPrimeFactor.py:43(updateFactors)
+        1    0.000    0.000    0.000    0.000 largestPrimeFactor.py:51(findFactors)
+        2    0.000    0.000    0.000    0.000 {built-in method now}
+       37    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+############################################################
+Profiling started for:  ['largestPrimeFactor.py', '3556']
+Start time:  2012-09-24 03:05:13.692000 
+
+
+All powers of prime factors of  3556  are as follows:
+Largest Prime:  127
+[[2, 4], [7], [127]]
+
+
+End time:  2012-09-24 03:05:13.692000
+Profiling finished for:  ['largestPrimeFactor.py', '3556']
+############################################################
+         113 function calls in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 largestPrimeFactor.py:11(<module>)
+       32    0.000    0.000    0.000    0.000 largestPrimeFactor.py:20(nextprime)
+       35    0.000    0.000    0.000    0.000 largestPrimeFactor.py:29(checkDivisibility)
+       35    0.000    0.000    0.000    0.000 largestPrimeFactor.py:43(updateFactors)
+        1    0.000    0.000    0.000    0.000 largestPrimeFactor.py:51(findFactors)
+        2    0.000    0.000    0.000    0.000 {built-in method now}
+        6    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
